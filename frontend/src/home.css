@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Create responsiveness to the body element for a certain amount of time. Use min-width and add 300px to it to create a cover element and from all the items on the page to shrinking */
+
+
+    /* width: 100%; 
+    /* most important thing is setting the height with vh */
+    /* height: 100vh;
+    /* How to set an image as a background create a div class, im going to try it with section as well */
+    /* overflow: auto; */ 
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    a {
+      text-decoration: none;
+    } 
+    
+    body{ 
+        min-width: 500px;
+    }  
+
+
+    .rows {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: -6px 0 !important;
+        background-color: black;
+    }
+  .col{
+    flex-basis: 0%;
+    position: relative;
+    margin:0px;
+  }
+  .col1{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;    
+  }
+
+h1.unguardedsection{
+  display: block;
+  font-size: 50px;
+  font-weight: 100;
+  margin: 10px 0 40px;
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans'
+}
+
+/* h2 title i have different h2 and h3 tags */
+
+
+.socials-container{
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+a.instagramsocial{
+  position: relative;
+  margin:  1.0rem;
+  display: inline-block;
+  color: rgb(249, 133, 0);  
+}
+
+a.instagramsocial:hover{
+  position: relative;
+  margin: 1.0rem;
+  display: inline-block;
+  color: rgb(255, 255, 255);  
+}
+
+a.youtubesocial{
+  position: relative;
+  margin:  1.0rem;
+  display: inline-block;
+  color: rgb(249, 133, 0);  
+}
+
+
+a.youtubesocial:hover{
+  position: relative;
+  margin:  1.0rem;
+  display: inline-block;
+  color: rgb(255, 255, 255);  
+}
+
+
+a.snapchatsocial{
+  position: relative;
+  margin: 1.0rem;
+  display: inline-block;
+  color: rgb(249, 133, 0);  
+}
+
+
+a.snapchatsocial:hover{
+  position: relative;
+  margin: 1.0rem;
+  display: inline-block;
+  color: rgb(255, 255, 255);  
+}
+
+h3.unguardeddescription{
+  display: block;
+  font-size: 1em;
+  font-weight: 100;
+  text-align: center;
+  margin: 10px 0 10px;
+  color: rgb(214, 214, 214);
+  font-family: 'Helvetica'
+}
+
+.rows1{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0; 
+  background-color: rgb(255, 255, 255);
+}
+
+
+.col2{
+  flex-basis: 20%;
+  position: relative;
+  margin-left:60px;
+}
+
+
+h2.unguardedmarketing{
+    display: block;
+    font-size: 1.5em;
+    text-align: left;
+    margin: 10px 0 10px;
+  }
+
+h3.unguardeddescription1{
+    display: block;
+   
+    font-weight: 100;
+
+    color: rgb(0, 0, 0);
+    font-family: 'Helvetica';
+  
+  }
+
+  
+
+.watch{
+  background-color: rgb(249, 133, 0);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 10px;
+  font-size: 10px;
+  box-shadow: none!important;
+  text-decoration: none;
+  outline: none;
+}
+
+.watch:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(249, 133, 0);
+}
+
+.watch:focus{
+  outline: none;
+  box-shadow: none;
+  background-color: black;
+}
+
+.col3{
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;    
+}
+
+.col3 .iphone{
+  width: 100%; 
+  height: 0%;
+  position: relative;
+}
+
+
+@media only screen and (max-width: 900px){
+  .rows{
+    flex-direction: column;
+    margin: -6px 0; 
+  }
+  .col{
+    width: 100%;
+    position:relative;
+    /* display: none;trick for if i want to hide an element when responsive */
+  }
+  .col1{
+    flex-basis: 90%;
+    margin-bottom: 0px;
+  }
+ 
+
+  h3.unguardeddescription{
+    display: block;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    margin: 10px 0 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Helvetica'
+  }
+
+  .rows1{
+    flex-direction: column-reverse;
+    margin: 0px 0;
+  }
+
+  .col2{
+    flex-basis: 20%;
+    position: relative;
+    margin-left:0px;
+    margin-bottom: 100px;
+  }
+
+  .col3 .iphone{
+    width: 100%; 
+    height: 0%;
+    position: relative;
+    margin: 0px 0 50px;
+  }
+
+ 
+  h2.unguardedmarketing{
+    display: block;
+    font-size: .8em;
+    text-align: center;
+    margin: 10px 0 10px;
+    
+  }
+
+  h3.unguardeddescription1{
+    display: block;
+    font-size: .8em;
+    font-weight: 100;
+    text-align: center;
+    margin: 10px 0 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Helvetica';
+    padding-left: 50px; 
+    padding-right: 50px;
+  }
+
+  
+.watch{
+  background-color: rgb(249, 133, 0);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 8px;
+  box-shadow: none!important;
+  text-decoration: none;
+  outline: none;
+  left:45%;
+ 
+  position: relative;
+  z-index: 2;   
+}
+
+.watch:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(249, 133, 0);
+}
+
+.watch:focus{
+  outline: none;
+  box-shadow: none;
+  background-color: black;
+}
+}
+
+
+
+
