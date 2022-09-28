@@ -7,6 +7,7 @@ import {getProducts} from '../actions/productActions'
 import Product from './product/product'
 import Loader from './layout/Loader'
 import { useAlert } from 'react-alert';
+import { useParams } from 'react-router-dom';
 
 
 
@@ -15,6 +16,9 @@ const Store = (match) => {
   const alert = useAlert();
   const dispatch = useDispatch();
   const [currentPage, setCurrentPage] = useState(1) 
+  let params = useParams();
+
+  
 
   const {loading, products,error, productCount, resPerPage} = useSelector(state => state.products)
 
@@ -77,3 +81,4 @@ function setCurrentPageNo(pageNumber){
 
 
 export default Store;
+
