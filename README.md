@@ -5,4 +5,4 @@ Salman Hasan
 UNGUARDED Presentation 
 https://www.youtube.com/watch?v=ItIWyZoxlQA
 
-Notes available only for interview purposes.
+Notes available only based on reachout. s.hasan@unguarded.com
