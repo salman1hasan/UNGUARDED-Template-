@@ -1,5 +1,5 @@
-Salman Hasan
-10/26/2022
+UNGUARDED [User Authentication w/ Content Route(Custom Video Player)]
+
 
 https://www.youtube.com/watch?v=ItIWyZoxlQA
 
