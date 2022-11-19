@@ -579,6 +579,8 @@ router.delete('/delete/:id', auth, authAdmin, userCtrl.updateUsersRole)
 
 List Products 
 1.Data.js add the file to your project and create an input where you can download all your files 
+
+
 2. products: [ 
 
 { 
@@ -605,15 +607,31 @@ description: 'A popular shirt.',
 
  
 3. Add like 5 products with all the categories using an object to store the values 
+
+
 4.Then go to the source code and get all the images that are necessary to download the files 
+
+
 5.Then go to your index.js and import Grid with a container of 3 with data.products.map((product) => 
 <Grid item md={4} key={product.name} </Grid> 
+
+
 6.Get rid of styles and add data from import data from ‘utils/data’ 
+
+
 7.Then import card and import Card action and add card media with component =”img” 
 with an image and with a title and import CartItem as well 
+
+
 8.Then import typography as well with product.name 
+
+
 9. Add the cart actions and add typography and add product.price with typography and make sure all the things are imported  
+
+
 10.Define a button and import add to cart and set the button size to small and the color primary 
+
+
 11.What the source code looks like 
 <Layout> 
 
