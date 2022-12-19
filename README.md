@@ -2,6 +2,7 @@ UNGUARDED [User Authentication w/ Content Route(Custom Video Player)]
 
 
 https://www.youtube.com/watch?v=ItIWyZoxlQA
+https://vimeo.com/782400890 [Update designs]
 
 Not uploaded on Heroku due to other upgrades needed in the app for my satisfcation. Moving forward, i'll be uploading templates and short youtube videos of my progress as a programmer.
 
